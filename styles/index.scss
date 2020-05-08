@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
+
+@import '_variables.scss';
+@import '_core.scss';
+@import '_mobile.scss';
+
+@media (min-width: 780px){
+    @import '_desktop.scss';
+}

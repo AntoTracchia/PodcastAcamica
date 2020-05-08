@@ -1,0 +1,82 @@
+@import '_variables.scss';
+
+@media only screen and (min-width: 768px) {
+
+    header {
+
+        .nav-container {
+            max-width: 1240px;
+            height: 80px;
+
+            .logo {
+                padding-left: 5%;
+                height: 36px;
+                width: 36px;
+            }
+
+            #hamburger {
+                display: none;
+            }
+
+            .btn-section {
+                display: none;
+            }
+
+            .menu {
+                display: block;
+                position: static;
+                width: auto;
+                top: auto;
+                left: auto;
+
+
+                li {
+
+                    display: inline-block;
+
+                    .link {
+                        text-decoration: none;
+                        display: block;
+                        padding: 0 25px 0 25px;
+                        color: #060A24;
+                        font-size: 16px;
+                        text-align: center;
+
+                        &:hover {
+                            color: #00F3BB;
+                            text-decoration: line-through;
+                        }
+
+                        &:active {
+                            color: rgba(6, 10, 36, 0.56);
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.intro {
+
+    h1 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #060A24;
+        margin-top: 2rem;
+        padding: 15px;
+        padding-left: 15px;
+        font-size: 36px;
+        letter-spacing: 0;
+    }
+
+    .paragraph-banner-mobile {
+        display: none;
+    }
+
+    .paragraph-banner {
+        display: inline-block;
+    }
+}
+
+

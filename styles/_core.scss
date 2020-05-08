@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: $primary-font;
+}
+
+.nav-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul{
+        list-style: none;
+        font-family: $secondary-font;
+    }
+}
+
+.intro{
+
+    .paragraph-banner{
+        display: none;
+    }
+}
